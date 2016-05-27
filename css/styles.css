@@ -1,0 +1,222 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 2000px;
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/goldengate2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*HEADER*/
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo-col {
+    width: 16.66%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.header-col {
+    width: 83.33%;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.headtextname {
+    text-align: right;
+}
+
+.headtextweb {
+    text-align: right;
+    margin-top: -20px;
+    margin-right: 25px;
+}
+
+/*HERO*/
+.hero {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.hero-col {
+    width: 100%;
+    height: 300px;
+}
+
+.heroimage {
+    width: 100%;
+    height: 80%;
+}
+
+/*FEAUTRED WORK*/
+.featuredwork {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px
+    display: flex;
+}
+
+.h2featuredwork {
+    margin-bottom: 19px;
+}
+
+.featuredwork-col {
+    width: 100%;
+}
+
+/*HR LINE*/
+hr {
+    width: 90%;
+}
+
+/*WORK EXAMPLES*/
+
+.workone-col {
+    width: 41.66%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.workoneimage {
+    width: 100%;
+}
+
+.worktwo-col {
+    width: 41.66%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.worktwoimage {
+    width: 100%;
+}
+
+.workthree-col {
+    width: 41.66%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.workthreeimage {
+    width: 100%;
+    height: 115px;
+}
+
+.workexamples {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*SOCIAL MEDIA*/
+.socialcontainer {
+    margin: 0 auto;
+    max-width: 2000px;
+    height: 150px;
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+}
+
+/*TEXT*/
+.text-center {
+    text-align: center;
+}
+
+/*COLUMNS*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
