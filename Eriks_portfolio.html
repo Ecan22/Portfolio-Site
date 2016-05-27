@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/under700.css">
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    
 </head>
 
 <body>
-    <div class="container">
+    <header class="container">
         <div class="header">
             <div class="logo-col">
+            <img class="logo" src="images/logo.jpg" alt="logo">
             </div>
             <div class="header-col">
                 <h1 class="headtextname">Erik Cannon</h1>
@@ -24,20 +25,20 @@
             </div>
         </div>
 
-        <div class="hero">
+        <section class="hero">
             <div class="hero-col">
             </div>
-        </div>
-    </div>
+        </section>
+    </header>
 
-    <div class="featuredwork">
+    <section class="featuredwork">
         <div class="featuredwork-col text-center">
             <h2 class="h2featuredwork">Featured Work</h2>
             <hr>
         </div>
-    </div>
+    </section>
 
-    <div class="workexamples text-center">
+    <nav class="workexamples text-center">
         <div class="workone-col">
             <h3>Work One</h3>
             <img class="workoneimage" src="images/brooklynbridge.jpg" data-toggle="modal" data-target="#work1" alt="brooklyn bridge">
@@ -53,15 +54,15 @@
             <img class="workthreeimage" src="images/downtown.jpg" alt="heavenly">
             <p>This is my third project for Udacity.</p>
         </div>
-    </div>
+    </nav>
 
-    <div class="socialcontainer">
+    <footer class="socialcontainer">
         <ul>
-            <li class="fa fa-3x fa-linkedin-square" aria-hidden="true"></li>
+            <li class="fa fa-3x fa-linkedin-square" aria-hidden="true"><a href="https://www.linkedin.com/"></a></li>
             <li class="fa fa-3x fa-github-square" aria-hidden="true"></li>
             <li class="fa fa-3x fa-angellist" aria-hidden="true"></li>
         </ul>
-    </div>
+    </footer>
 
     <!-- Modal -->
     <div class="modal fade" id="work1" tabindex="-1" role="dialog" aria-labelledby="Work1">
@@ -85,5 +86,8 @@
 
 
 </body>
+
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
 
 </html>
